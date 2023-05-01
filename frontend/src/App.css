@@ -1,0 +1,39 @@
+#root{
+  background-image: url('img/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+  overflow-y: hidden;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0rem;
+}
+
+.App-header hr {
+  width: 100%;
+}
+
+.App-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  flex-grow: 1;
+  margin: 2rem;
+}

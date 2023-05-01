@@ -1,0 +1,134 @@
+{
+  "doctors": [
+    {
+      "id": 1001,
+      "name": "Ramesh",
+      "dep": "Cardiology",
+      "position": "HOD",
+      "trainedIn": "bypass surgery"
+    },
+    {
+      "id": 1002,
+      "name": "Suresh",
+      "dep": "Neurology",
+      "position": "Senior Doctor",
+      "trainedIn": "vascular surgery"
+    },
+    {
+      "id": 1003,
+      "name": "Kamlesh",
+      "dep": "Cardiology",
+      "position": "Senior Doctor",
+      "trainedIn": "bypass surgery"
+    },
+    {
+      "name": "Monish",
+      "dep": "Natarajan",
+      "position": "hod",
+      "trainedIn": "bypass",
+      "id": 1004
+    },
+    {
+      "name": "Kamal",
+      "dep": "Cardio",
+      "position": "senior",
+      "trainedIn": "vascular",
+      "id": 1005
+    },
+    {
+      "name": "Yash",
+      "dep": "Cardio",
+      "position": "hod",
+      "trainedIn": "bypass",
+      "id": 1006
+    }
+  ],
+  "patients": [
+    {
+      "id": 1001,
+      "name": "Ramesh",
+      "dep": "Cardiology",
+      "position": "HOD",
+      "trainedIn": "bypass surgery"
+    },
+    {
+      "id": 1002,
+      "name": "Suresh",
+      "dep": "Neurology",
+      "position": "Senior Doctor",
+      "trainedIn": "vascular surgery"
+    },
+    {
+      "id": 1003,
+      "name": "Kamlesh",
+      "dep": "Cardiology",
+      "position": "Senior Doctor",
+      "trainedIn": "bypass surgery"
+    },
+    {
+      "name": "Monish",
+      "dep": "Natarajan",
+      "position": "hod",
+      "trainedIn": "bypass",
+      "id": 1004
+    },
+    {
+      "name": "Kamal",
+      "dep": "Cardio",
+      "position": "senior",
+      "trainedIn": "vascular",
+      "id": 1005
+    },
+    {
+      "name": "Yash",
+      "dep": "Cardio",
+      "position": "hod",
+      "trainedIn": "bypass",
+      "id": 1006
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1001,
+      "name": "Ramesh",
+      "dep": "Cardiology",
+      "position": "HOD",
+      "trainedIn": "bypass surgery"
+    },
+    {
+      "id": 1002,
+      "name": "Suresh",
+      "dep": "Neurology",
+      "position": "Senior Doctor",
+      "trainedIn": "vascular surgery"
+    },
+    {
+      "id": 1003,
+      "name": "Kamlesh",
+      "dep": "Cardiology",
+      "position": "Senior Doctor",
+      "trainedIn": "bypass surgery"
+    },
+    {
+      "name": "Monish",
+      "dep": "Natarajan",
+      "position": "hod",
+      "trainedIn": "bypass",
+      "id": 1004
+    },
+    {
+      "name": "Kamal",
+      "dep": "Cardio",
+      "position": "senior",
+      "trainedIn": "vascular",
+      "id": 1005
+    },
+    {
+      "name": "Yash",
+      "dep": "Cardio",
+      "position": "hod",
+      "trainedIn": "bypass",
+      "id": 1006
+    }
+  ]
+}

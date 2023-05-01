@@ -1,0 +1,44 @@
+{
+    "treatment": [
+      {
+        "id": 1,
+        "name": "surgery"
+      },
+      {
+        "id": 2,
+        "name": "extraction"
+      },
+      {
+        "id": 3,
+        "name": "angioplasty"
+      }
+    ],
+    "test": [
+        {
+          "id": 1,
+          "name": "x-ray"
+        },
+        {
+          "id": 2,
+          "name": "ct"
+        },
+        {
+          "id": 3,
+          "name": "blood-test"
+        }
+      ],
+      "medication": [
+        {
+          "id": 1,
+          "name": "aspirin"
+        },
+        {
+          "id": 2,
+          "name": "paracetmol"
+        },
+        {
+          "id": 3,
+          "name": "pantaprazole"
+        }
+      ]
+  }

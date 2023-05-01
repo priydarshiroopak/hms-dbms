@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #683B2B;
+
+  color: #5b2400;
+}
+
+/* HOME START */
+.container_home {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-row: auto auto;
+  grid-column-gap: 40px;
+}
+
+.container_home2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.container_home3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.box button {
+  height: 20vh;
+  width: 20vh;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.container_home .box,
+.container_home2 .box,
+.container_home3 .box {
+  text-decoration: none;
+}
+
+button {
+  margin: 10px auto;
+  padding: 5px 10px;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  background-color: #B08401;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: .2s ease-in;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button:hover {
+  background: #D49E8D;
+}
+
+/* TABLE START */
+.patient_list {
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+table {
+  /* color: black; */
+  width: 100%;
+  border-collapse: collapse;
+  font-size: large;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 6px 30px;
+  border-bottom: 1px solid #B08401;
+}
+
+tbody tr:hover {
+  background-color: #D49E8D;
+  color: #fff;
+}
+
+tr.selected,
+tr.selected:hover {
+  background-color: #B08401;
+  color: #fff;
+}
+
+/* TABLE END */
+
+.my-col {
+  font-size: 1.5rem;
+}
+
+.button_row {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 20px;
+  gap: 20px;
+}
+
+.managedocs h1 {
+  margin-top: 100px;
+}
+
+.managedocs form {
+  padding: 20px;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+
+.managedocs label {
+  font-size: 20px;
+}
+
+.managedocs button {
+  background-color: #B08401;
+  font-size: 20px;
+}
+
+.managedocs button:hover {
+  background-color: #D49E8D;
+}
+
+.log-out {
+  margin-left: 1650px;
+}
